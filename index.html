@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Layout Master</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS USED WHEN GRID NOT SUPPORTED -->
+  <link rel="stylesheet" type="text/css" href="./fallback.css">
+  <!-- GRID CSS USED WHEN BROWSER SUPPORTED -->
+  <link rel="stylesheet" type="text/css" href="./grid.css">
+  <!-- IONICONS CDN -->
+  <!-- <link href="https://unpkg.com/ionicons@4.4.8/dist/css/ionicons.min.css" rel="stylesheet"> -->
+</head>
+<body>
+  <!-- NAV/HEADER -->
+  <header>
+  	<nav>
+  		<ul class="main-nav ">
+  			<li><a href="#">About</a></li>
+  			<li><a href="#projects">Products</a></li>
+  			<li class="desktop-our-team"><a href="#">Our Team</a></li>
+  			<li class="mobile-our-team"><a href="#">Team</a></li>
+  			<li id='contact'><a href="#">Contact</a></li>
+  		</ul>
+  	</nav>
+  </header>
+   <!-- HERO  -->
+  <section class="section section-hero">
+  	<div class="hero-container">
+  		<h1 class="hero-text">Your product motto.</h1>
+  		<button class="btn btn-ghost">See more</button>
+  		<button class="btn btn-full">Join</button>
+  	</div>
+  		<!-- <div class="hero"></div> -->
+  </section>
+  <!-- SUBSCRIBE LETTER -->
+  <section class="section section-newsletter">
+  		<h2>Subscribe to our monthly newsletter - no spam</h2>
+  		<form>
+	  		<input class="email" type="email" name="email" placeholder="signup@email.com" required>
+	  		<input class="btn btn-full" type="submit" name="Subscribe" value="Subscribe">
+  		</form>
+  </section>
+  <!-- PROJECTS  -->
+  <section id="projects" class="section section-projects">
+  	<h2>Projects</h2>
+  	<hr>
+  	<div class="container">
+	   <div class="box project-1">
+	   		<h3>Transparency</h3>
+	   		<ion-icon name="contacts"></ion-icon>
+	   		<p>Provide clear, transparent insight into what we do - so you never miss out!</p>
+	   		<a class="box-link" href="#">See more</a>
+	   </div>
+	   <div class="box project-2">
+	   		<h3>Trend detection</h3>
+	   		<ion-icon name="trending-up"></ion-icon>
+	   		<p>Our machine learning AI crunches through data to provide you the current and future trends which will interest consumers today and the future!</p>
+	   		<a class="box-link" href="#">See more</a>
+	   </div>
+	   <div class="box project-3">
+	   		<h3>On the cloud</h3>
+	   		  <ion-icon name="cloud-done"></ion-icon>
+	   		<p>We provide cloud access so you can access your files from any device, no need to stick to one device with a hard copy!</p>
+	   		<a class="box-link" href="#">See more</a>
+	   </div>
+	   <div class="box project-4">
+	   		<h3>Compatibility</h3>
+	   		<ion-icon name="swap"></ion-icon>
+	   		<p>Our software is backwards compatible so on many devices so your experience will never decrease on an older device.</p>
+	   		<a class="box-link" href="#">See more</a>
+	   </div>
+	   <div class="box project-5">
+	   		<h3>Monthly data report</h3>
+	   		<ion-icon name="stats"></ion-icon>
+	   		<p>We provide you with a monthly data report - just state the format preference.</p>
+	   		<a class="box-link" href="#">See more</a>
+	   </div>
+	   <div class="box project-6">
+	   		<h3>Server reliability</h3>
+	   		<ion-icon name="speedometer"></ion-icon>
+	   		<p>Our servers run <strong>24/7</strong>, <strong>365 days a year</strong> at top optimal performance. We take speed and relaibility seriously.</p>
+	   		<a class="box-link" href="#">See more</a>
+	   </div>
+	   <div class="box project-7">
+	   		<h3>Settings access</h3>
+	   		<ion-icon name="settings"></ion-icon>
+	   		<p>We know your tech guys love to tinker, so our packages come with settings access so you can configure it for you goals/purposes.</p>
+	   		<a class="box-link" href="#">See more</a>
+	   </div>
+	   <div class="box project-8">
+		   	<h3>Security</h3>
+		   	<ion-icon name="lock"></ion-icon>
+		   	<p>End-to-end encryption ensures that only you receive the data, so you can relax.</p>
+		   	<a class="box-link" href="#">See more</a>
+	   </div>
+	</div>
+  </section>
+   <!-- FOOTER  -->
+  <footer>
+  	<p class="author">Made with 🔥 &copy; 2018</p>
+  	<ul class="social-links">
+  		<li ><a id="facebook" href="#"><ion-icon  name="logo-facebook"></ion-icon></a></li>
+  		<li ><a id="twitter" href="#"><ion-icon  name="logo-twitter"></ion-icon></a></li>
+  		<li ><a id="instagram" href="#"><ion-icon  name="logo-instagram"></ion-icon></a></li>
+  		<li ><a id="pinterest" href="#"><ion-icon  name="logo-pinterest"></ion-icon></a></li>
+  	</ul>
+  </footer>
+
+  <!-- ION_ICONS  -->
+  <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+  <!-- <div class="zone green">Header</div>
+  <div class="zone red">Cover</div>
+  <div class="zone blue">Project Grid</div>
+  <div class="zone yellow">Footer</div> -->
+</body>
+</html>
